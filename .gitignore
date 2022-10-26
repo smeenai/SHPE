@@ -338,3 +338,12 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# Makefile outputs
+Average/average
+Hello/hello
+Mystery/mystery
+OutOfBounds/out_of_bounds
+Palindrome/palindrome
+Reverse/reverse
+Uninitialized/uninitialized
