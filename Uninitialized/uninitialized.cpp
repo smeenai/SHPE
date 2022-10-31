@@ -2,6 +2,7 @@
 #include <vector>
 
 int computeSum(const std::vector<int>& numbers) {
+  // Use -Wall -Werror to catch (-Wextra can be useful too)
   int sum;
   for (int number : numbers) {
     sum += number;

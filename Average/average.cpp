@@ -12,7 +12,10 @@ int computeSum(const std::vector<int>& numbers) {
 double computeAverage(const std::vector<int>& numbers) {
   // compute and return the average using computeSum
   // v.size() will get you the length of a vector v
-  return 0;
+  // ANSWER: average is sum / number of elements, and we can call computeSum to
+  // get the sum. int / int gives you int in C++ (it rounds down to the nearest
+  // integer), so we need to cast to a double to get decimals.
+  return static_cast<double>(computeSum(numbers)) / numbers.size();
 }
 
 int main() {
